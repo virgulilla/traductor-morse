@@ -1,23 +1,12 @@
 # Traductor Morse
 
-Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. La aplicación permite convertir texto a código Morse y viceversa.
-
-## Características
-
-- Conversión de texto a código Morse.
-- Conversión de código Morse a texto.
-- Interfaz gráfica de usuario amigable.
-
-## Requisitos
-
-- Python 3.x
-- Tkinter (generalmente incluido con Python)
+Este proyecto es una aplicación para traducir texto a código Morse y viceversa.
 
 ## Instalación
 
-1. Clona este repositorio:
+1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/traductor-morse.git
+    git clone https://github.com/virgulilla/traductor-morse.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
@@ -28,20 +17,15 @@ Este proyecto es una aplicación de escritorio desarrollada en Python utilizando
 
 1. Ejecuta la aplicación:
     ```bash
-    python app.py
+    python main.py
     ```
-2. Ingresa el texto o código Morse en el campo correspondiente.
-3. Presiona el botón para convertir.
+2. Ingresa el texto que deseas traducir en el campo correspondiente y selecciona la opción de traducción (Texto a Morse o Morse a Texto).
 
-## Estructura del Proyecto
-
-- `app.py`: Archivo principal de la aplicación.
-- `morse.py`: Módulo que contiene las funciones de conversión.
-- `README.md`: Este archivo.
+3. Para separar palabras en Morse, usa 2 pausas.
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que desees realizar.
 
 ## Licencia
 
